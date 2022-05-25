@@ -3,7 +3,7 @@ from wordle import Wordle
 def main():
     print("Hello Wordle")
     wordle = Wordle("APPLE")
-
+#PUPSKO
     while wordle.can_attempt:
         x = input("Type your guess: ")
         if len(x) != wordle.WORD_LENGTH:
